@@ -12,7 +12,10 @@ import {
 } from "react-icons/di";
 import {
   SiRedis,
-  SiMysql
+  SiMysql,
+  SiSequelize,
+  SiMongodb
+
 } from "react-icons/si";
 
 function Techstack() {
@@ -41,6 +44,12 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSequelize/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />

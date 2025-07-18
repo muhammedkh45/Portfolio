@@ -5,7 +5,7 @@ import {
   SiPostman,
   SiVercel,
 } from "react-icons/si";
-
+import {  DiWindows} from "react-icons/di"
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -17,6 +17,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiWindows />
       </Col>
     </Row>
   );
