@@ -6,6 +6,7 @@ import elnour from "../../Assets/Projects/elnour.png";
 import tasktracker from "../../Assets/Projects/tasktracker.png";
 import xmleditor from "../../Assets/Projects/xmleditor.png";
 import CPUSchedular from "../../Assets/Projects/cpuschedular.png"
+import SalesSquare from "../../Assets/Projects/Sales square.png"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -26,6 +27,16 @@ function Projects() {
               description="Elnour Website is a modern, responsive web platform built to showcase the services and values of Elnour. Designed with user experience in mind, the site offers smooth navigation, clean visuals, and informative content that highlights the company’s expertise and commitment to excellence. Whether you're exploring their offerings or reaching out for collaboration, the Elnour site provides an engaging and professional online presence"
               ghLink="https://github.com/muhammedkh45/EL-Nour-"
               demoLink="https://el-nour.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={SalesSquare}
+              isBlog={false}
+              title="Sales Square "
+              description="This project is a distributed online marketplace platform built using Django and PostgreSQL, designed to provide essential e-commerce functionalities through a scalable and modular architecture. It supports user account management, item listing, purchases, and secure financial transactions. The system also includes RESTful APIs and a distributed database model."
+              ghLink="https://market-place-forked.onrender.com/"
+              demoLink="https://github.com/muhammedkh45/market_place_forked.git"
             />
           </Col>
 
